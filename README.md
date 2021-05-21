@@ -9,7 +9,7 @@ Based on:
 
 - [ ] Improve the tag slection process. Tier levels should be treated separately from tags, and perform an AND with the other tags. E.g., select "Networking conferences that are Tier 1" rather than "Networking conference or Tier 1 conferences", as it is now.
 - [ ] Handle multiple abstract deadlines (as multiple paper deadlines are already supported).
-- [ ] Implement the "Click to show only TAG" logic.
+- [x] Implement the "Click to show only TAG" logic.
 
 ## Adding/updating a conference
 
