@@ -7,22 +7,12 @@ variables:
 before_script:
   - gem install jekyll bundler
 
-test:
-  stage: test
-  script:
-  - jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
-
 pages:
   stage: deploy
   script:
-  - jekyll build -d public
+  - jekyll build -d _site
   artifacts:
     paths:
-    - public
+    - _site
   only:
   - master
