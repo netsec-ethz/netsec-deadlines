@@ -1,0 +1,32 @@
+---
+- name: HotNets
+  year: 2021
+  date: "November 10-12, 2021"
+  place: Online
+  description: Twentieth ACM Workshop on Hot Topics in Networks
+  link: http://conferences.sigcomm.org/hotnets/2021/
+  deadline: "2021-06-25 17:59:59"
+  abstract: "2021-06-18 17:59:59"
+  timezone: America/New_York  # EDT
+  tags: [NET, Teps]
+
+- name: CoNEXT
+  year: 2021
+  date: "December 6-10, 2021"
+  place: Online
+  link: https://conferences2.sigcomm.org/co-next/2021/
+  description: The 17th International Conference on emerging Networking EXperiments and Technologies
+  deadline: "2021-06-28 23:59"
+  abstract: "2021-06-21 23:59"
+  timezone: Europe/Zurich # CET
+  tags: [NET, Teps]
+
+- name: ACM IMC
+  description: ACM Internet Measurement Conference 2021
+  year: 2021
+  link: https://conferences.sigcomm.org/imc/2021/cfp/
+  abstract: '2021-05-19 23:59:00'
+  deadline: '2021-05-26 23:59:00'
+  date: November 2-4, 2021
+  place: Virtual
+  tags: [NET, T1]

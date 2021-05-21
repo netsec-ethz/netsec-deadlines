@@ -1,0 +1,12 @@
+title: NetSec Group conference tracker
+description: Countdowns to top Security and Networking conference deadlines. 
+author: Giacomo Giuliari
+
+domain: "sec-deadlines.github.io"
+baseurl: ""
+
+gitlab_repo: netsec-deadlines
+gitlab_username: giacomog
+
+markdown: kramdown
+

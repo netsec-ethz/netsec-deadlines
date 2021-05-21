@@ -1,0 +1,23 @@
+---
+- name: Security
+  tag: SEC
+- name: Privacy
+  tag: PRIV
+- name: Crypto
+  tag: CRYPTO
+- name: Infsec
+  tag: INFOR
+- name: Networks
+  tag: NET
+- name: Theory
+  tag: THEO
+# Conference tiers
+- name: Tier 1
+  tag: T1
+- name: Tier 1-ε
+  tag: Teps
+- name: Tier 2
+  tag: T2
+- name: Tier ⊥   # bottom tier
+  tag: Tb
+
