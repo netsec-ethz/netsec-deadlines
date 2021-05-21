@@ -20,4 +20,5 @@
   tag: T2
 - name: Tier ⊥   # bottom tier
   tag: Tb
-
+- name: Workshop 
+  tag: WP 
