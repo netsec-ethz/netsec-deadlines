@@ -227,4 +227,19 @@ $(function() {
     store.set('{{ site.domain }}', tags);
     update_conf_list();
   });
+
+  // Reset the tags
+  function reset_tags() {
+    for (var i = 0; i < all_tags.length; i++) {
+      $('#' + all_tags[i] + '-checkbox').prop('checked', true);
+      toggle_status[all_tags[i]] = true;
+    }
+    store.set('{{ site.domain }}', all_tags);
+    update_conf_list();
+  }
+
+  $( "#reset-button" ).click(function() {
+    reset_tags();
+  });
+
 });
