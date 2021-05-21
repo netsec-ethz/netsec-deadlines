@@ -8,6 +8,7 @@ Based on:
 ## TODO
 
 - [ ] Improve the tag slection process. Tier levels should be treated separately from tags, and perform an AND with the other tags. E.g., select "Networking conferences that are Tier 1" rather than "Networking conference or Tier 1 conferences", as it is now.
+- [ ] Handle multiple abstract deadlines (as multiple paper deadlines are already supported).
 
 ## Adding/updating a conference
 
@@ -41,6 +42,7 @@ Descriptions of the fields:
 | `description` | Description, or long name                                   |
 | `link`\*      | URL to the conference home page                             |
 | `deadline`\*  | Deadline, or list of deadlines. (Gory details below)        |
+| `abstract`    | Abstract deadline. No deadline by default.                  |
 | `timezone`    | Timezone in [tz][1] format. By default is UTC-12 ([AoE][2]) |
 | `date`        | When the conference is happening                            |
 | `place`       | Where the conference is happening                           |
