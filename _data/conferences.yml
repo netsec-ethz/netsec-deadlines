@@ -34,7 +34,7 @@
 - name: ACM SIGCOMM NAI 
   year: 2021
   description: ACM SIGCOMM Workshop on Network-Application Integration 
-  link: 
+  link: https://conferences.sigcomm.org/sigcomm/2021/workshop-nai.html
   deadline: '2021-05-26 23:59:59'
   timezone: America/New_York  # EDT
   date: August 27, 2021
