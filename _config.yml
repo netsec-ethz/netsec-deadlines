@@ -5,8 +5,11 @@ author: Giacomo Giuliari
 domain: "giacgiuliari.github.io"
 baseurl: "/netsec-deadlines"
 
-gitlab_repo: netsec-group-deadlines
-gitlab_username: OU-PERRIG
+#gitlab_repo: netsec-group-deadlines
+#gitlab_username: OU-PERRIG
+
+github_repo: netsec-deadlines
+github_username: giacgiuliari 
 
 markdown: kramdown
 
