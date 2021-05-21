@@ -31,7 +31,7 @@
   place: Virtual
   tags: [NET, T1]
 
-- name: ACM SIGCOMM NAI 
+- name: ACM NAI 
   year: 2021
   description: ACM SIGCOMM Workshop on Network-Application Integration 
   link: https://conferences.sigcomm.org/sigcomm/2021/workshop-nai.html
