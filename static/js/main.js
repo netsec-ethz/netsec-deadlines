@@ -195,6 +195,7 @@ $(function() {
     confs.each(function(i, conf) {
       var conf = $(conf);
       var show = false;
+      console.log(toggle_status);
       for (var i = 0; i < all_tags.length; i++) {
         if(conf.hasClass(all_tags[i])) {
           show = show | toggle_status[all_tags[i]];
@@ -234,12 +235,33 @@ $(function() {
       $('#' + all_tags[i] + '-checkbox').prop('checked', true);
       toggle_status[all_tags[i]] = true;
     }
-    store.set('{{ site.domain }}', all_tags);
+    tags = all_tags
+    store.set('{{ site.domain }}', tags);
     update_conf_list();
   }
 
   $( "#reset-button" ).click(function() {
     reset_tags();
   });
+
+  // Tag selection
+  $('.conf-sub').click(function(e) {
+    var csub = $(this).data('sub');
+    console.log(tags)
+    for (var i = 0; i < tags.length; i++) {
+      if (tags[i] != csub) {
+        toggle_status[tags[i]] = false;
+        $('#' + tags[i] + '-checkbox').prop('checked', false);
+        $('.' + tags[i] + '-conf').hide();
+      }
+    }
+    $('#' + csub + '-checkbox').prop('checked', true);
+    toggle_status[csub] = true;
+    tags = [csub];
+    console.log(tags);
+    store.set('{{ site.domain }}', tags);
+    update_conf_list();
+  });
+
 
 });
