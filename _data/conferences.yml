@@ -43,9 +43,13 @@
 
 - name: USENIX Security
   year: 2022
+  description: USENIX Security Symposium
   date: "August 10-12, 2022"
   place: Boston
   link: https://www.usenix.org/conference/usenixsecurity22
-  deadline: '2021-06-08 23:59:00'
+  deadline: 
+    - "2021-06-08 23:59"
+    - "2021-10-12 23:59"
+    - "2022-02-01 23:59"
   tags: [SEC, T1]
 
