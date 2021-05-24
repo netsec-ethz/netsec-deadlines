@@ -187,6 +187,7 @@ $(function() {
   $('form :checkbox').change(function(e) {
     var checked = $(this).is(':checked');
     var tag = $(this).prop('id').slice(0, -9);
+    var tags = store.get('{{ site.domain }}');
     toggle_status[tag] = checked;
 
     if (checked == true) {
@@ -204,6 +205,7 @@ $(function() {
 
   // Reset the tags
   function reset_tags() {
+    var tags = store.get('{{ site.domain }}');
     for (var i = 0; i < all_tags.length; i++) {
       $('#' + all_tags[i] + '-checkbox').prop('checked', true);
       toggle_status[all_tags[i]] = true;
@@ -219,6 +221,7 @@ $(function() {
 
   // Tag selection
   $('.conf-sub').click(function(e) {
+    var tags = store.get('{{ site.domain }}');
     var csub = $(this).data('sub');
     console.log(tags)
     for (var i = 0; i < tags.length; i++) {
