@@ -64,3 +64,27 @@
   place: Virtual
   tags: [NET, Teps]
 
+- name: ACM SOSR
+  description: ACM SIGCOMM Symposium on SDN Research
+  year: 2021
+  link: https://conferences.sigcomm.org/sosr/2021/calls.html
+  deadline: '2021-06-11 00:00:00'
+  timezone: UTC-12
+  date: September 20-21, 2021
+  place: Virtual
+  tags: [NET]
+
+- name: PETS
+  description: Privacy Enhancing Technologies Symposium
+  year: 2021
+  link: https://petsymposium.org
+  deadline:
+    - "%y-05-31 23:59"
+    - "%y-08-31 23:59"
+    - "%y-11-30 23:59"
+    - "%y-02-28 23:59"
+  comment: Rolling deadline every quarter
+  timezone: Etc/GMT+11
+  date: July 12-16
+  place: Virtual
+  tags: [PRIV] 
