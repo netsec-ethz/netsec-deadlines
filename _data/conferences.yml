@@ -5,8 +5,8 @@
   place: Renton, WA, USA
   description: USENIX Symposium on Networked Systems Design and Implementation
   link: https://www.usenix.org/conference/nsdi22/call-for-papers
-  deadline: "2021-09-09 20:59"
-  abstract: "2021-09-15 20:59"
+  abstract: "2021-09-09 20:59"
+  deadline: "2021-09-15 20:59"
   timezone: America/Los_Angeles  # PDT
   tags: [NET, T1]
 
