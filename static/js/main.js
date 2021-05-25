@@ -125,7 +125,15 @@ $(function() {
     var b = deadlineByConf[b.id];
     var diff1 = today.diff(a)
     var diff2 = today.diff(b)
-    return diff2 - diff1;
+    if (diff1 < 0 && diff2 > 0) {
+        return -1;
+    } else if (diff1 > 0 && diff2 < 0){
+        return +1;
+    } else if (diff1 > 0 && diff2 > 0) {
+        return diff1 - diff2;
+    } else {
+        return diff2 - diff1;
+    }
    })
    $('.conf-container').append(confs);
 
