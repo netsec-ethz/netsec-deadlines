@@ -1,3 +1,14 @@
+- name: NDSS
+  year: 2022
+  date: "February 27 - March 3, 2022"
+  place: San Diego, CA, USA 
+  description: Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss2022/call-for-papers/
+  deadline: 
+    - "2021-05-21"
+    - "2021-07-23"
+  tags: [NET, SEC, T2]
+
 - name: IEEE CNS
   year: 2021
   date: "October 4–6, 2021"
