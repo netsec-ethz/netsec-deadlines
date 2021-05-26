@@ -61,10 +61,20 @@
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
                 <div class="meta">
                   {{ conf.description }}<br>
-                    {% if conf.place == "Online" or conf.place == "Virtual" %}
-                    <a href="#">Virtual</a>.
+                    {% if conf.date %}
+                    {{ conf.date }} ||
                     {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    No presentation ||
+                    {% endif %}
+
+                    {% if conf.place %}
+                        {% if conf.place == "Online" or conf.place == "Virtual" %}
+                        <a href="#">Virtual</a>.
+                        {% else %}
+                        <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                        {% endif %}
+                    {% else %}
+                        No venue.
                     {% endif %}
                 </div>
                 <div>

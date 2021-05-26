@@ -1,3 +1,15 @@
+- name: ACM CCR 
+  description: Computer Communication Review
+  link: https://www.sigcomm.org/for-authors/ccr-author-information
+  deadline:
+    - "%y-03-01 06:59"
+    - "%y-06-01 06:59"
+    - "%y-09-01 06:59"
+    - "%y-12-01 06:59"
+  timezone: America/New_York   # EDT
+  comment: Rolling deadline every quarter.
+  tags: [NET, Teps]
+
 - name: NDSS
   year: 2022
   date: "February 27 - March 3, 2022"
@@ -114,7 +126,7 @@
     - "%y-08-31 23:59"
     - "%y-11-30 23:59"
     - "%y-02-28 23:59"
-  comment: Rolling deadline every quarter
+  comment: Rolling deadline every quarter.
   timezone: Etc/GMT+11
   date: July 12-16
   place: Virtual
