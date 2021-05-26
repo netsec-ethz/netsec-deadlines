@@ -1,4 +1,13 @@
----
+- name: IEEE CNS
+  year: 2021
+  date: "October 4–6, 2021"
+  place: Virtual
+  description: IEEE Conference on Communications and Network Security
+  link: https://cns2021.ieee-cns.org/
+  deadline: "2021-06-17 23:59"
+  timezone: America/New_York   # EDT 
+  tags: [NET, SEC, T2]
+
 - name: NSDI Fall
   year: 2022
   date: "April 4–6, 2022"

@@ -16,9 +16,7 @@
   tag: T1
 - name: Tier 1-ε
   tag: Teps
-#- name: Tier 2
-  #tag: T2
-- name: Tier ⊥   # bottom tier
-  tag: Tb
+- name: Tier 2
+  tag: T2
 - name: Workshop 
   tag: WP 
