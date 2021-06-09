@@ -130,4 +130,15 @@
   timezone: Etc/GMT+11
   date: July 12-16
   place: Virtual
-  tags: [PRIV] 
+  tags: [PRIV]
+
+- name: ACM ASIACCS
+  year: 2022
+  description: ACM ASIA Conference on Computer and Communications Security
+  date: "May 30 ‒ June 3, 2022"
+  place: Nagasaki, Japan
+  link: https://asiaccs2022.conferenceservice.jp/
+  deadline: 
+    - "2021-07-30 23:59"
+    - "2021-11-19 23:59"
+  tags: [SEC, T2]
