@@ -1,3 +1,13 @@
+- name: IEEE ICC
+  year: 2022
+  date: "May 16-20, 2022"
+  place: Seoul, South Korea 
+  description: IEEE International Conference on Communications
+  link: https://icc2022.ieee-icc.org/
+  deadline: "2021-10-11 23:59"
+  timezone: America/New_York   # EDT
+  tags: [NET]
+
 - name: ACM CCR 
   description: Computer Communication Review
   link: https://www.sigcomm.org/for-authors/ccr-author-information
