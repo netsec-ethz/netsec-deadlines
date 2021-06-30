@@ -23,13 +23,13 @@
 - name: NDSS
   year: 2022
   date: "February 27 - March 3, 2022"
-  place: San Diego, CA, USA 
+  place: San Diego, CA, USA
   description: Network and Distributed System Security Symposium
   link: https://www.ndss-symposium.org/ndss2022/call-for-papers/
-  deadline: 
+  deadline:
     - "2021-05-21"
     - "2021-07-23"
-  tags: [NET, SEC, T2]
+  tags: [NET, SEC, T1]
 
 - name: IEEE CNS
   year: 2021
@@ -38,7 +38,7 @@
   description: IEEE Conference on Communications and Network Security
   link: https://cns2021.ieee-cns.org/
   deadline: "2021-06-17 23:59"
-  timezone: America/New_York   # EDT 
+  timezone: America/New_York   # EDT
   tags: [NET, SEC, T2]
 
 - name: NSDI Fall
@@ -84,9 +84,9 @@
   place: Virtual
   tags: [NET, T1]
 
-- name: ACM NAI 
+- name: ACM NAI
   year: 2021
-  description: ACM SIGCOMM Workshop on Network-Application Integration 
+  description: ACM SIGCOMM Workshop on Network-Application Integration
   link: https://conferences.sigcomm.org/sigcomm/2021/workshop-nai.html
   deadline: '2021-05-26 23:59:59'
   timezone: America/New_York  # EDT
@@ -100,7 +100,7 @@
   date: "August 10-12, 2022"
   place: Boston, MA, USA
   link: https://www.usenix.org/conference/usenixsecurity22
-  deadline: 
+  deadline:
     - "2021-06-08 23:59"
     - "2021-10-12 23:59"
     - "2022-02-01 23:59"
@@ -140,4 +140,27 @@
   timezone: Etc/GMT+11
   date: July 12-16
   place: Virtual
-  tags: [PRIV] 
+  tags: [PRIV]
+
+- name: ACM ASIACCS
+  year: 2022
+  description: ACM ASIA Conference on Computer and Communications Security
+  date: "May 30 ‒ June 3, 2022"
+  place: Nagasaki, Japan
+  link: https://asiaccs2022.conferenceservice.jp/
+  deadline:
+    - "2021-07-30 23:59"
+    - "2021-11-19 23:59"
+  tags: [SEC, T2]
+
+- name: IEEE S&P (Oakland)
+  year: 2022
+  date: "May 22 - 26, 2022"
+  place: Oakland, CA, USA
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2022/cfpapers.html
+  deadline:
+    - "2021-04-15 23:59:59"
+    - "2021-08-19 23:59:59"
+    - "2021-12-02 23:59:59"
+  tags: [PRIV, SEC, T1]
