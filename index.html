@@ -25,12 +25,12 @@
           </div>
           <div class="col-xs-12">
             {{ site.description }}
-            <p>To add or update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">check the GitHub repo</a>.</p>
-            <p>You can also download the deadlines in ics format <a target="_blank" href="//{{site.github_username}}.github.io/{{ site.github_repo }}/netsec-deadlines.ics">here</a>!</p>
-            <p>Latest update: {{ site.time | date: "%-d %B %Y" }}</p>
+            <p>To add or update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">check the GitHub repo</a>.</br>
+                You can also download the deadlines in ics format <a target="_blank" href="//{{site.github_username}}.github.io/{{ site.github_repo }}/netsec-deadlines.ics">here</a>!</p>
           </div>
               <div class="meta col-xs-12">
                 <span class="local-timezone-hide">
+                  Latest update: {{ site.time | date: "%-d %B %Y" }}</br>
                   Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
                 </span>
               </div>
