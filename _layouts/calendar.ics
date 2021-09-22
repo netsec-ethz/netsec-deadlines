@@ -6,7 +6,7 @@ X-PUBLISHED-TTL:PT1H
 {%- for conf in site.data.conferences -%}
 {% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
 BEGIN:VEVENT
-SUMMARY:{{ conf.title }} {{ conf.year }} abstract deadline
+SUMMARY:{{ conf.name }} {{ conf.year }} abstract deadline
 UID:{{ conf.id }}-abstract {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 ORGANIZER:{{ site.domain }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
@@ -17,7 +17,7 @@ DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ conf.timezone }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT{% endif %}
 {% if conf.deadline != "TBA" %}BEGIN:VEVENT
-SUMMARY:{{ conf.title }} {{ conf.year }} deadline
+SUMMARY:{{ conf.name }} {{ conf.year }} deadline
 UID:{{ conf.id }} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 ORGANIZER:{{ site.domain }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
