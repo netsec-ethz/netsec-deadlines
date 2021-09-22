@@ -9,7 +9,7 @@ baseurl: "/netsec-deadlines"
 #gitlab_username: OU-PERRIG
 
 github_repo: netsec-deadlines
-github_username: giacgiuliari 
+github_username: netsec-ethz
 
 markdown: kramdown
 
