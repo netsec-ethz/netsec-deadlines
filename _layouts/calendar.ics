@@ -4,12 +4,23 @@ VERSION:2.0
 PRODID:-//{{ site.domain }}//netsec-deadlines//EN
 X-PUBLISHED-TTL:PT1H
 {%- for conf in site.data.conferences -%}
+{% if conf.abstract %}
+BEGIN:VEVENT
+SUMMARY:{{ conf.name }} {{ conf.year }} abstract deadline
+UID:{{ conf.abstract | date: "%Y%m%dT%H%M%S" }}-{{ conf.year}}-{{ conf.name }} {% if conf.timezone != nil %} {% assign tz = conf.timezone %} {% else %} {% assign tz = "Etc/GMT+12" %} {% endif %}
+ORGANIZER:{{ site.domain }}
+DESCRIPTION:{{ conf.link }}
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID={{ tz }}:{{ conf.abstract | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT
+{% endif -%}
 {% if conf.deadline.first %}
 {% for cur in conf.deadline -%}
 BEGIN:VEVENT
 SUMMARY:{{ conf.name }} {{ conf.year }} rolling deadline {% if cur contains "%" %}{% assign curdate = "now" | date: cur | date: "%Y%m%dT%H%M%S" %} {% else %} {% assign curdate = cur | date: "%Y%m%dT%H%M%S" %} {% endif %}
-UID:{{ cur | date: "%Y%m%dT%H%M%S" }} {% if conf.timezone != nil %} {% assign tz = conf.timezone %} {% else %} {% assign tz = "Etc/GMT+12" %} {% endif %}
+UID:{{ cur | date: "%Y%m%dT%H%M%S" }}-{{ conf.year}}-{{ conf.name }} {% if conf.timezone != nil %} {% assign tz = conf.timezone %} {% else %} {% assign tz = "Etc/GMT+12" %} {% endif %}
 ORGANIZER:{{ site.domain }}
+DESCRIPTION:{{ conf.link }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ tz }}:{{ curdate }}
 END:VEVENT
@@ -17,8 +28,9 @@ END:VEVENT
 {%- else %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.name }} {{ conf.year }} deadline
-UID:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }} {% if conf.timezone != nil %} {% assign tz = conf.timezone %} {% else %} {% assign tz = "Etc/GMT+12" %} {% endif %}
+UID:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}-{{ conf.year}}-{{ conf.name }} {% if conf.timezone != nil %} {% assign tz = conf.timezone %} {% else %} {% assign tz = "Etc/GMT+12" %} {% endif %}
 ORGANIZER:{{ site.domain }}
+DESCRIPTION:{{ conf.link }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ tz }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
 END:VEVENT
