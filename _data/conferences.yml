@@ -47,10 +47,11 @@
   place: Carlsbad, CA, USA
   description: USENIX Annual Technical Conference
   link: https://www.usenix.org/conference/atc22
-  comment: Deadline needs to be updated when more info is available.
+  comment: Rebuttal April 11-13, Notification April 29
   deadline: "2022-01-13 23:59"
-  timezone: America/New_York   # EDT
-  tags: [NET, Teps]
+  abstract: "2022-01-06 23:59"
+  timezone: Europe/London   # UTC
+  tags: [NET]
   
 - name: IEEE ICC
   year: 2022
