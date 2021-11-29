@@ -1,3 +1,15 @@
+- name: ACM SIGCOMM
+  year: 2022
+  date: "August 22-26, 2022"
+  place: Amsterdam, NL
+  description: Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  link: https://conferences.sigcomm.org/sigcomm/2022/cfp.html
+  deadline: "2022-02-02 18:59" 
+  abstract: "2022-01-26 18:59"
+  timezone: America/New_York   # EST
+  comment: Early notification April 14, acceptance notification May 7.
+  tags: [NET, T1]
+
 - name: DSN
   year: 2022
   date: "June 27-30, 2022"
