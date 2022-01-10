@@ -7,7 +7,7 @@
   deadline: 
     - "2022-01-14 23:59" 
     - "2022-05-02 23:59" 
-  comment: Rebuttal periods: 18.02-06.03 and 19.06-07.07
+  comment: "Rebuttal periods: 18.02-06.03 and 19.06-07.07"
   tags: [SEC, T1]
 
 - name: ACM SIGCOMM
