@@ -1,3 +1,14 @@
+- name: ACM CCS
+  year: 2022
+  date: "November 14-19, 2022"
+  place: Los Angeles, USA
+  description: ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2022/call-for-papers.html
+  deadline: "2022-02-02 18:59" 
+  abstract: "2022-01-26 18:59"
+  comment: Rebuttal periods: 18.02-06.03 and 19.06-07.07
+  tags: [SEC, T1]
+
 - name: ACM SIGCOMM
   year: 2022
   date: "August 22-26, 2022"
@@ -16,8 +27,9 @@
   place: Baltimore, Maryland, USA
   description: Annual IEEE/IFIP International Conference on Dependable Systems and Networks
   link: https://dsn2022.github.io/cfpapers.html
-  deadline: "2021-12-10 23:59" # AoE
-  abstract: "2021-12-03 23:59"
+  deadline: 
+    - "2022-01-14 23:59" # AoE
+    - "2022-05-01 23:59" # AoE
   tags: [NET]
 
 - name: ACM/IEEE ANCS
