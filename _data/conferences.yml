@@ -4,8 +4,9 @@
   place: Los Angeles, USA
   description: ACM Conference on Computer and Communications Security
   link: https://www.sigsac.org/ccs/CCS2022/call-for-papers.html
-  deadline: "2022-02-02 18:59" 
-  abstract: "2022-01-26 18:59"
+  deadline: 
+    - "2022-01-14 23:59" 
+    - "2022-05-02 23:59" 
   comment: Rebuttal periods: 18.02-06.03 and 19.06-07.07
   tags: [SEC, T1]
 
