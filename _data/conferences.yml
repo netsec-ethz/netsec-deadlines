@@ -1,3 +1,14 @@
+- name: IEEE/ACM IWQoS
+  year: 2022
+  date: "June 10–12, 2022"
+  description: IEEE/ACM International Symposium on Quality of Service
+  link: https://iwqos2022.ieee-iwqos.org/
+  deadline: "2022-02-09 03:59" 
+  abstract: "2022-02-01 03:59"
+  timezone: Europe/Zurich   # EST
+  comment: The submission deadline seems to be different in EDAS.
+  tags: [NET]
+
 - name: ACM CCS
   year: 2022
   date: "November 14-19, 2022"
