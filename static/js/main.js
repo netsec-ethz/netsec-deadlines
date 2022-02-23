@@ -125,6 +125,21 @@ $(function() {
     var b = deadlineByConf[b.id];
     var diff1 = today.diff(a)
     var diff2 = today.diff(b)
+    // a negative diff is in the future
+    if (!a._isValid) {
+        if (diff2 < 0) {
+            return +1;
+        }else{
+            return -1;
+        }
+    }
+    if (!b._isValid) {
+        if (diff1 < 0) {
+            return -1;
+        }else{
+            return +1;
+        }
+    }
     if (diff1 < 0 && diff2 > 0) {
         return -1;
     } else if (diff1 > 0 && diff2 < 0){
