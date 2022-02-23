@@ -1,3 +1,26 @@
+- name: IEEE ICNP
+  description: IEEE International Conference on Network Protocols
+  year: 2022
+  link: https://icnp22.cs.ucr.edu/index2.html
+  date: October 30 - November 2, 2022
+  deadline: "2022-05-26 20:00"
+  abstract: "2022-05-19 20:00"
+  timezone: America/New_York  # EDT
+  place: Lexington, Kentucky, USA
+  tags: [NET]
+
+- name: IEEE S&P (Oakland)
+  year: 2023
+  date: "May 22 - 26, 2023"
+  place: Oakland, CA, USA
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+  deadline:
+    - "2022-04-01 23:59:59"
+    - "2022-08-19 23:59:59"
+    - "2022-12-02 23:59:59"
+  tags: [PRIV, SEC]
+
 - name: CoNEXT
   year: 2022
   date: "December 6-9, 2022"
@@ -6,7 +29,6 @@
   description: The International Conference on emerging Networking EXperiments and Technologies
   comment: There are no deadlines available yet.
   deadline: TBD
-  abstract: TBD
   timezone: Europe/Zurich # CET
   tags: [NET]
 
@@ -20,7 +42,7 @@
     - "2022-01-14 23:59" 
     - "2022-05-02 23:59" 
   comment: "Rebuttal periods: 18.02-06.03 and 19.06-07.07"
-  tags: [SEC, T1]
+  tags: [SEC]
 
 - name: ACM SIGCOMM
   year: 2022
@@ -87,7 +109,7 @@
     - "%y-12-01 06:59"
   timezone: America/New_York   # EDT
   comment: Rolling deadline every quarter.
-  tags: [NET, Teps]
+  tags: [NET]
 
 - name: NDSS
   year: 2022
