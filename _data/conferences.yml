@@ -1,3 +1,12 @@
+- name: USENIX Security
+  year: 2023
+  description: USENIX Security Symposium
+  date: "August 9-11, 2023"
+  place: Anaheim, CA, USA
+  link: https://www.usenix.org/conference/usenixsecurity23
+  deadline: TBD
+  tags: [SEC, T1]
+
 - name: IEEE ICNP
   description: IEEE International Conference on Network Protocols
   year: 2022
@@ -27,8 +36,7 @@
   place: Rome, Italy
   link: https://conferences2.sigcomm.org/co-next/2022/
   description: The International Conference on emerging Networking EXperiments and Technologies
-  comment: There are no deadlines available yet.
-  deadline: TBD
+  deadline: "2022-06-29 23:59" 
   timezone: Europe/Zurich # CET
   tags: [NET]
 
