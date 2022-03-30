@@ -1,3 +1,13 @@
+- name: ACM AFT
+  year: 2022
+  description: ACM Advances in Financial Technologies
+  date: "September 19-21, 2022"
+  place: Cambridge, MA, USA
+  link: https://aft.acm.org/aft22/index.html
+  deadline: "2022-05-06 03:59:59"
+  timezone: America/New_York  # EDT
+  tags: [CRYPTO]
+
 - name: USENIX Security
   year: 2023
   description: USENIX Security Symposium
