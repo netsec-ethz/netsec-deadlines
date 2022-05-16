@@ -14,7 +14,10 @@
   date: "August 9-11, 2023"
   place: Anaheim, CA, USA
   link: https://www.usenix.org/conference/usenixsecurity23
-  deadline: TBD
+  deadline:
+    - "2022-06-07 23:59"  # AoE
+    - "2022-10-11 23:59"
+    - "2023-02-07 23:59"
   tags: [SEC, T1]
 
 - name: IEEE ICNP
