@@ -62,7 +62,6 @@ $(function() {
   {% endfor %}
 
   {% for month in site.data.months %}
-        console.log(confByMonth['{{ month }}']);
         var curConfs = confByMonth['{{ month }}'];
         if (curConfs) {
             curConfs.sort()
