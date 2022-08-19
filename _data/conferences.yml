@@ -1,3 +1,24 @@
+- name: IEEE ICC
+  year: 2023
+  date: "May 28-June 1, 2023"
+  place: Rome, Italy
+  description: IEEE International Conference on Communications
+  link: https://icc2023.ieee-icc.org/
+  deadline: "2022-10-11 23:59"
+  timezone: America/New_York   # EDT
+  tags: [NET]
+
+- name: IEEE INFOCOM
+  year: 2023
+  date: "17-20 May, 2023"
+  place: New York, USA
+  description: IEEE International Conference on Computer Communications
+  link: https://infocom2023.ieee-infocom.org/
+  abstract: "2022-07-25 23:59"
+  deadline: "2022-08-01 23:59"
+  timezone: America/New_York   # EDT
+  tags: [NET]
+
 - name: NSDI Fall
   year: 2023
   date: "April 17-19, 2023"
