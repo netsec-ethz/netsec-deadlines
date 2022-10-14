@@ -1,7 +1,16 @@
+- name: SpaceSec Workshop
+  year: NDSS
+  description: Workshop co-located with NDSS
+  date: "February 27, 2023"
+  place: San Diego, CA, USA
+  link: https://easychair.org/cfp/SpaceSec23
+  deadline: "2023-02-10 23:59"
+  tags: [SEC]
+
 - name: ACM ASIACCS
   year: 2023
   description: ACM ASIA Conference on Computer and Communications Security
-  date: "July 10 - 14, 2023."
+  date: "July 10 - 14, 2023"
   place: Melbourne, Australia
   link: https://asiaccs2023.org/
   deadline:
