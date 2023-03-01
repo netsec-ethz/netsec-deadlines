@@ -1,3 +1,15 @@
+- name: IEEE S&P (Oakland)
+  year: 2024
+  date: "May 22 - 25, 2024"
+  place: Oakland, CA, USA
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2024/cfpapers.html
+  deadline: # AoE
+    - "2023-04-13 23:59:59"
+    - "2023-08-03 23:59:59"
+    - "2023-12-06 23:59:59"
+  tags: [PRIV, SEC]
+
 - name: CoNEXT
   year: 2023
   date: "December 5-8, 2023"
