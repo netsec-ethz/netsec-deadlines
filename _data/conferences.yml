@@ -5,6 +5,7 @@
   description: International Symposium on Distributed Computing
   link: http://www.disc-conference.org/wp/disc2023/
   deadline: "2023-05-03 23:59" # AoE
+  tags: [NET]
 
 - name: SRDS
   year: 2023
