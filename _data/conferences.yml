@@ -1,11 +1,3 @@
-- name: DISC
-  year: 2023
-  date: "October 9-13, 2023"
-  place: L'Aquila, IT 
-  description: International Symposium on Distributed Computing
-  link: https://disc-conference.org/wp/disc2023/
-  deadline: "2023-05-03 23:59" # AoE
-  tags: [SEC]
 
 - name: SRDS
   year: 2023
