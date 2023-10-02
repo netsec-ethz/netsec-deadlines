@@ -1,3 +1,54 @@
+- name: EuroSys
+  description: 
+  year: 2024
+  link: https://2024.eurosys.org/
+  deadline: "2023-10-18 23:59"
+  date: "April 22-25"
+  place: Athens, Greece
+  tags: [NET]
+
+- name: ASIACCS
+  description: ACM Asia Conference on Computer and Communications Security
+  year: 2024
+  link: https://asiaccs2024.sutd.edu.sg/
+  deadline:
+    - "2023-08-21 23:59"
+    - "2023-12-07 23:59"
+  date: "July 1-5"
+  place: Singapore
+  tags: [SEC, PRIV]
+
+- name: Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2024
+  link: https://eurosp2024.ieee-security.org/
+  deadline: "2023-11-02 23:59"
+  date: "July 8 - 12"
+  place: Vienna, Austria 
+  tags: [SEC, PRIV]
+
+- name: NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2024
+  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/
+  deadline:
+    - "2023-04-19 23:59"
+    - "2023-06-28 23:59"
+  date: "February 26 - March 1"
+  place: San Diego, CA, USA
+  tags: [SEC, PRIV]
+
+- name: USENIX Security
+  description: USENIX Security Symposium
+  year: 2024
+  link: https://www.usenix.org/conference/usenixsecurity24
+  deadline:
+    - "2023-06-06 23:59"
+    - "2023-10-17 23:59"
+    - "2024-02-08 23:59"
+  date: "August 14-16"
+  place: Philadelphia, PA, USA
+  tags: [SEC, PRIV]
 
 - name: DISC
   year: 2023
