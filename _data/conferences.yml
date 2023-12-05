@@ -1,3 +1,14 @@
+- name: ACM SIGCOMM
+  year: 2024
+  date: "August 4-8, 2024"
+  place: Sidney, Australia
+  description: SIGCOMM Conference 
+  link: https://www.sigcomm.org/sites/default/files/SIGCOMM_CFP_2024.html
+  deadline: "2024-02-02 23:59" 
+  abstract: "2024-01-26 23:59"
+  timezone: Europe/London   # UTC
+  comment: Acceptance notification May 7, 2024.
+  
 - name: EuroSys
   description: European Conference on Computer Systems
   year: 2024
